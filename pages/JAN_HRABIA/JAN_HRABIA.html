@@ -7,12 +7,16 @@
     <title>Dogepedia</title>
 
     <link rel="stylesheet" href="../../css/Home.css">
-    <link rel="stylesheet" href="../../css/Ad.css">
 
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../images/icon.png" type="image/x-icon">
 
+    
     <!--Skrytpty-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
+    <script src="../../js/links.js"></script>
+
+    <script src="../../js/JsonLoad.js"></script>
 </head>
 <body>
     <div id="container">
@@ -21,8 +25,22 @@
         </div>
 
         <div class="description_home">
-            <h1>Cześć! Chyba się zgubiłeś. <a href="pages/Home/Home.html">To link do strony głównej.</a></h1>
+
+
+            <!--Json-->
+            <h1 id="Title_word"></h1>
+            <div class="flex">
+                <h3 id="Description"></h3>
+
+                
+                <!--Images-->
+                <img id="image" src="">
+            </div>
+
+
         </div>
+
+        <div class="links"></div>
     </div>
 </body>
 </html>
