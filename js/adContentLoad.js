@@ -15,7 +15,9 @@ $.ajax({
             $("#ad_image").attr("src", value.Img);
             
             console.log(value.Link);
-            $("#ad_link").prop("href", value.Link);
+            $("#ad_image").on("click", function(){
+                window.location.href = value.Link;
+            });
         })
     }
 })

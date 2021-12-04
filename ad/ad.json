@@ -1,9 +1,14 @@
 {
     "Ad":[{
-            "Title":"REKLAMA - TYTUŁ",
-            "Description":"Cupidatat excepteur esse consequat adipisicing minim cillum pariatur velit cupidatat dolor reprehenderit. Reprehenderit eiusmod cillum esse exercitation cillum qui pariatur et. Voluptate dolore tempor adipisicing ex enim est eiusmod commodo exercitation reprehenderit et.",
-            "Link":"LINK URL",
-            "Img":"https://scontent.fktw4-1.fna.fbcdn.net/v/t1.18169-9/18118459_10154607526707496_8094040457105436643_n.png?_nc_cat=100&ccb=1-5&_nc_sid=1cb0a9&_nc_ohc=1ymJ21FvZKYAX_5XyaW&_nc_ht=scontent.fktw4-1.fna&oh=944d6cbe89309676c0f49090d96b46c8&oe=61D30735"
+            "Title":"Linux Manjaro",
+
+            "Description":"Linux Manjaro to świetny Linux dla średnio zaawansowanych użytkowników do codziennego użytku.",
+
+            
+            "Link":"https://manjaro.org/",
+
+
+            "Img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Manjaro-logo.svg/2048px-Manjaro-logo.svg.png"
         }
     ]
 }
