@@ -5,11 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Dogepedia</title>
-
-    <link rel="stylesheet" href="../../css/Home.css">
-    <link rel="stylesheet" href="../../css/Ad.css">
-
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        
+        body{
+            background-color: #1f2227;
+        }
+        
+        #container {
+            margin-top: 30px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        #header, .description_home, .links {
+            background-color: #ffb759;
+            border-radius: 20px;
+            padding: 20px 10px 20px 10px;
+            text-align: center;
+            color: #1f2227;
+            margin-bottom: 40px;
+        }
+        
+        .description_home h1{
+            font-size: 30px;
+        }
+        
+        .description_home h3{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        .description_home img{
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            border-radius: 15px;
+            float: right;
+        }
+        
+        .artykul_btn{
+            background-color: #e9ac5c;
+            border: none;
+            border-radius: 20px;
+            font-size: 20px;
+            padding: 15px 15px 15px 15px;
+            text-decoration: underline;
+            color: #1f2227;
+            display: block;
+            margin-bottom: 10px;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+        
+        .flex{
+            display: flex;
+        }
+        
+        
+        /*699*/
+        
+        @media screen and (max-width: 699px){
+            .flex{
+                display: grid;
+            }
+            .description_home img{
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+            }
+        }
+    </style>
 
     <!--Skrytpty-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
