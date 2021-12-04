@@ -1,0 +1,6 @@
+body {
+    background-image: url(../../Images/Background1.jpg);
+    background-position: right;
+    background-size: cover;
+    min-height: 100vh;
+}
