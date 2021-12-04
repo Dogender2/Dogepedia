@@ -10,10 +10,10 @@ $.ajax({
 
             console.log(value.Description);
             $("#ad_description").text(value.Description);
-
-            console.log(value.LinkText);
-            $("#ad_link").text(value.LinkText);
-
+            
+            console.log(value.Img);
+            $("#ad_image").attr("src", value.Img);
+            
             console.log(value.Link);
             $("#ad_link").prop("href", value.Link);
         })

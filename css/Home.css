@@ -58,9 +58,6 @@ body{
     display: flex;
 }
 
-
-/*699*/
-
 @media screen and (max-width: 699px){
     .flex{
         display: grid;

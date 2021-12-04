@@ -5,10 +5,37 @@
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     color: #1f2227;
-    min-height: 200px;
 }
 
 #ad a{
     color: #1f2227;
     text-decoration: none;
+}
+
+#ad img{
+    margin-left: left;
+    border-radius: 7px;
+    height: 200px;
+    margin-left:auto;
+    cursor: pointer;
+}
+
+#ad_description{
+    font-weight: 400;
+}
+
+#ad_description{
+    margin-right: 1%;
+}
+
+.ad_flex{
+    display: flex;
+}
+
+
+@media screen and (max-width: 699px){
+    .ad_flex{
+        display: block;
+        text-align: center;
+    }
 }
