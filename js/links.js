@@ -1,3 +1,3 @@
 $(function(){
-    $(".links").load("../links.html"); 
+    $("#links").load("../links.html"); 
 });
