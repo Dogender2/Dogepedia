@@ -91,8 +91,8 @@ header label{
 #container{
     background-color: rgba(255, 255, 255, 0.747);
     border-radius: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 20%;
     padding: 5%;
     text-align: center;
@@ -100,10 +100,26 @@ header label{
 }
 
 #container img{
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
     border-radius: 10px;
 }
 
+#container ol{
+    color: #fff;
+    list-style-type: none;
+}
+
+#container li{
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
 
 
 

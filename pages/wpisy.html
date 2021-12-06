@@ -1,6 +1,85 @@
-<a href="../Pablofilia/Pablofilia.html">Pablofilia</a>
-<a href="../Skrim/Skrim.html">Skrim</a>
-<a href="../Tomek/Tomek.html">Tomek</a>
-<a href="../Pan_Kazio/Pan_Kazio.html">Pan Kazio</a>
-<a href="../JAN_HRABIA/JAN_HRABIA.html">Jan Hrabia...</a>
-<a href="../Windowsofobia/Windowsofobia.html">Windowsofobia</a>
+<!doctype html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dogepedia</title>
+
+    <link rel="stylesheet" href="../css/Style.css">
+
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+    <!--Skrytpty-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script src="../../js/links.js"></script>
+
+
+    <!--Preview-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dogender2.github.io/Dogepedia/pages/Home/Home.html">
+    <meta property="og:title" content="Dogepedia | Strona Główna">
+    <meta property="og:description" content="Dogepedia to wikipedia stworzona przez Dogepiesia">
+    <meta property=”og:locale” content=”pl_PL” />
+    <meta property="og:site_name" content="Dogepedia">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <style>
+        body {
+            background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+            background-size: 400% 400%;
+            position: relative;
+            animation: change 10s ease-in-out infinite;
+        }
+
+        @keyframes change {
+            0%{
+                background-position: 0 50%;
+            }
+
+            50%{
+                background-position: 100% 50%;
+            }
+
+            100%{
+                background-position: 0 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+
+    <a href="#" class="logo">Dogepedia</a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Strona Główna</a></li>
+            <li><a href="Wpisy.html">Wpisy</a>
+            </li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+<div id="container">
+    <p>
+    <ol id="scoreList">
+    </ol>
+    </p>
+</div>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase.js"></script>
+</body>
+<script src="../js/App.js"></script>
+</html>
